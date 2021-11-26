@@ -1,0 +1,33 @@
+Lambda programming Model
+-------------------------
+What is Lambda?
+  -->A serverless compute service that runs your code in response to events
+  -->underlying compute resources managed for you.
+  -->stops and starts in milliseconds.
+  -->pay only for the time your code takes to execute.
+LAMBDA:
+  -->lambda is a serverless,serverless allows you to run your
+     application code in the cloud without having to worry about
+     managing any servers.
+competitive advantage of lambda over EC2;
+   -->speed to market:
+     By eliminating the overhead of managing servers,you can
+     release code quickly and get your application to 
+     market faster 
+   -->super scalable:
+     You can have a million users on your website and everything 
+     will scale automatically.
+   -->Lower costs:
+     you never pay for over-provisioning.serverless applications
+     are event-driven and you are only charged when your code is 
+     executed.
+   -->Focus on your application:
+      AWS offers a range of serverless technologies which
+      integrate seamlesslly.Allowing you to focus on building 
+      great applications.
+- Handlers files and functions -> the entry point for lambda invocations
+- Events -> the incoming data passed to a lambda function when triggered
+- Context -> Provides methods and properties that provide information about the invocation , function and execution environments
+- Logging -> handled via Cloudwatch logs
+- Exception -> success or failure is communicated to AWS
+ 
